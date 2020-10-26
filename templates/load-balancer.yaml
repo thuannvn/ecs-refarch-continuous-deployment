@@ -27,7 +27,7 @@ Resources:
     Properties:
       GroupDescription: !Sub ${AWS::StackName}-alb
       SecurityGroupIngress:
-        - CidrIp: "0.0.0.0/0"
+        - CidrIp: "125.234.128.217/32"
           IpProtocol: "TCP"
           FromPort: 80
           ToPort: 80
